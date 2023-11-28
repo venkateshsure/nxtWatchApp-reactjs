@@ -1,0 +1,47 @@
+.nxtwatch-link-con {
+  text-decoration: none;
+}
+
+.videos-li-con {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.views-published-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.thumbnail-logo {
+  width: 350px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.title-text {
+  color: #181818;
+}
+
+.text-channel-con {
+  display: flex;
+  flex-direction: row;
+}
+
+.channel-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.text-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

@@ -1,0 +1,38 @@
+.home-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.gaming-failure-image {
+  width: 300px;
+  height: 300px;
+}
+
+.gaming-videos-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 25px;
+}
+
+.gaming-videos-text-con {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.ul-gaming-videos-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.gaming-button {
+  border: none;
+  color: #ffffff;
+  background-color: #4f46e5;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

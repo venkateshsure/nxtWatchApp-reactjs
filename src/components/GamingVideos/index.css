@@ -1,0 +1,21 @@
+.gaming-link-con {
+  text-decoration: none;
+}
+
+.gaming-videos-li-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.gaming-thumbnail-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.gaming-text-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

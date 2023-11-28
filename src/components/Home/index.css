@@ -1,0 +1,174 @@
+.home-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.side-bar-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  flex-shrink: 0;
+
+  width: 10%;
+}
+.content-container {
+  flex-grow: 1;
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+.home-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  cursor: pointer;
+}
+
+.link-con {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  cursor: pointer;
+}
+
+.home-text {
+  color: #0f0f0f;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.bottom-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fac-twi-link-con {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.facebook {
+  width: 25px;
+}
+
+.twitter {
+  width: 25px;
+}
+
+.linked-in {
+  width: 25px;
+}
+
+.background-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  min-height: 30vh;
+}
+
+.website-logo {
+  width: 100px;
+}
+
+.get-it-now-button {
+  border: 1px solid #1e293b;
+  color: #475569;
+  background: transparent;
+}
+
+.background-inner-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.inner-back-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.outline-x {
+  cursor: pointer;
+}
+
+.input-con {
+  width: 40%;
+}
+
+input {
+  width: 80%;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+}
+
+.home-failure-image {
+  width: 400px;
+  height: 400px;
+}
+
+.home-button {
+  border: none;
+  color: #ffffff;
+  background-color: #4f46e5;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.cross-home-button {
+  border: none;
+}
+
+.render-videos-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videos-ul-con {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  flex-wrap: wrap;
+  min-height: 60vh;
+}
+
+.no-videos-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-videos {
+  width: 300px;
+  height: 300px;
+}
+
+.retry {
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: none;
+  cursor: pointer;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 20px;
+}

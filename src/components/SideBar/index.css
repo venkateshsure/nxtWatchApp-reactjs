@@ -1,0 +1,48 @@
+.side-bar-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  flex-shrink: 0;
+
+  width: 10%;
+}
+
+.home-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  cursor: pointer;
+}
+
+.home-text {
+  color: #0f0f0f;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.bottom-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fac-twi-link-con {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.facebook {
+  width: 25px;
+}
+
+.twitter {
+  width: 25px;
+}
+
+.linked-in {
+  width: 25px;
+}

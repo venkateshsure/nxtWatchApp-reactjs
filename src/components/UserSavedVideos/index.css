@@ -1,0 +1,30 @@
+.trending-link-con {
+  text-decoration: none;
+}
+
+.trending-videos-li-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+
+  margin-bottom: 10px;
+}
+
+.trending-thumbnail-logo {
+  width: 400px;
+  height: 400px;
+}
+
+.trending-text-channel-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.trending-views-published-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

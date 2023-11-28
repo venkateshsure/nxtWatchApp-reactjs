@@ -1,0 +1,39 @@
+.home-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.not-found-trending {
+  width: 300px;
+  height: 300px;
+}
+
+.trending-videos-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+
+.trending-videos-text-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+}
+
+.ul-trending-videos-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.trending-button {
+  border: none;
+  color: #ffffff;
+  background-color: #4f46e5;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
